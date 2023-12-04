@@ -1,0 +1,50 @@
+* {
+    background-color: #031D40;
+}
+
+h1 {
+    font-family: 'Dancing Script', 'Italianno', 'Pinyon Script', cursive;
+    color: antiquewhite;
+    font-size: 5vw;  /* Usar unidades de viewport width para hacer el tamaño relativo al ancho de la pantalla */
+}
+
+div {
+    text-align: center;
+}
+
+.boton {
+    font-size: 3vw;  /* Tamaño relativo */
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 0 2vw;  /* Espaciado relativo */
+    transition: background-color 0.3s;
+}
+
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 8vw;
+    }
+
+    a {
+        font-size: 5vw;
+        padding: 0 1vw;
+    }
+}
+
+.boton:visited {
+    color: antiquewhite;
+  }
+  
+  .boton:hover {
+    text-decoration: underline; 
+    background-color: aliceblue; 
+    color: #031D40;
+  }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;  /* Evitar espacio adicional debajo de la imagen */
+    margin: 0 auto;  /* Centrar la imagen */
+}

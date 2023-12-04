@@ -1,0 +1,67 @@
+/* Default styles for all screens */
+* {
+    background-color: whitesmoke;
+    color: #031D40;
+}
+
+
+#carta {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    justify-content: space-between;
+    margin: 10px; /* Adjust margin for smaller screens */
+}
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Damion', 'Dancing Script', 'Italianno', 'Pinyon Script', cursive;
+}
+
+.platos,
+.bebidas {
+    text-align: center;
+    margin: 5%; /* Adjust margin for smaller screens */
+}
+
+#ult {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#entradas,
+#Fuerte,
+#Recomendacion {
+    width: 100%; /* Set width to 100% for responsiveness */
+    border: 2px solid #031D40;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    #carta {
+        margin: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .platos {
+        margin: 5%; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Your existing styles below this line */
