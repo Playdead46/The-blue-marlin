@@ -1,24 +1,131 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!--FUENTES-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Italianno&family=Pinyon+Script&display=swap" rel="stylesheet">
-    <!----------->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Menu</title>
-</head>
-<link rel="stylesheet" href="./stylos.css">
-<body>
-    <a href="./main.html">
-        <img src="./src/294673416_546225400560416_5553618059467769435_n (2).png" alt="Logo" >
-    </a>
-    <div>
-        <h1>MENÚ</h1>
-        <a class="boton" href="./menuEspañol.html">Español</a>
-        <a class="boton" href="./menuIngles.html">Ingles</a>
-    </div>
-</body>
-</html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante Ejemplo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <style>
+    *{
+      outline: none;
+    }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      header {
+        background-color: #031d40;
+        color: whitesmoke;
+        text-align: center;
+        padding: 5px;
+      }
+
+      header p {
+        margin-top: auto;
+      }
+
+      section {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      nav {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      nav a {
+        text-decoration: none;
+        padding: 10px 20px;
+        background-color: #031d40;
+        color: #fff;
+        border-radius: 5px;
+        margin: 0 10px;
+      }
+
+      img{
+        width:150px ;
+        height:100px ;
+      }
+
+      section img {
+        cursor: pointer;
+      }
+
+      section h2, section p {
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        src="./src/294673416_546225400560416_5553618059467769435_n (2).png"
+        alt="Logo"
+        height="1000px"
+        width="250px"
+      />
+      <p>
+        "Del Mar a tu Paladar: The Blue Marlin, donde cada bocado es una
+        experiencia gourmet."
+      </p>
+    </header>
+
+    <section>
+      <h2>Bienvenido a The Blue Marlin</h2>
+      <p>
+        En The Blue Marlin nos comprometemos a ofrecer a nuestros comensales la
+        más exquisita experiencia <br />
+        gastronómica de mariscos gourmet. Buscamos superar expectativas a través
+        de la frescura de nuestros <br />
+        productos, la excelencia en el servicio y un ambiente acogedor,
+        convirtiendo cada visita en un festín para los <br />
+        sentidos.
+      </p>
+
+      <nav>
+        <a href="./main.html">Ver Menú</a>
+      </nav>
+
+      <h2>NOSOTROS</h2>
+      <img src="./src/camaron.jpg" alt="Imagen 1" />
+      <img src="./src/camarones.jpg" alt="Imagen 2" />
+      <img src="./src/camarones2.jpg" alt="imagen3">
+      <img src="./src/coco.jpg" alt="imagen4">
+      <img src="./src/ensalada.jpg" alt="imagen5">
+      <img src="./src/entr.jpg" alt="imagen6">
+      <img src="./src/mesa.jpg" alt="imagen7">
+      <img src="./src/mesa2.jpg" alt="imagen8">
+      <img src="./src/ostra.jpg" alt="imagen9">
+      <img src="./src/ostras.jpg" alt="imagen10">
+      <img src="./src/pan.jpg" alt="imagen11">
+      <img src="./src/pescado.jpg" alt="imagen12">
+      <img src="./src/sopa y vino.jpg" alt="imagen13">
+      <img src="./src/sopa.jpg" alt="imagen14">
+      <img src="./src/ventana.jpg" alt="imagen15">
+      <img src="./src/vino.jpg" alt="imagen16">
+    </section>
+
+    <section id="Vision">
+      <h2>Visión</h2>
+      <p>Ser reconocidos como el referente indiscutible de la alta cocina de mariscos, destacando por nuestra calidad, innovación y compromiso con la satisfacción de nuestros clientes. Aspiramos a expandir nuestra presencia, llevando el sabor único de The Blue Marlin a nuevos horizontes.</p>
+      <h2>Servicio</h2>
+      <p>En The Blue Marlin, nuestro servicio se caracteriza por la atención personalizada, la rapidez y la cortesía. Nuestro equipo altamente capacitado está dedicado a proporcionar una experiencia gastronómica única, garantizando la plena satisfacción de nuestros clientes.</p>
+    </section>
+    <script>
+        lightbox.option({
+          'resizeDuration': 200,
+          'wrapAround': true
+        });
+      </script>
+    </body>
+  </html>
